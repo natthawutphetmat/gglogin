@@ -1,6 +1,6 @@
 import React from 'react'
 import { getData } from '../data'
-
+import Link from 'next/link'
 export default async function header() {
     const data = await getData()
   return (
