@@ -1,5 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "./styles.css";
+import "./app.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        
+        {children}
+        <script async src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"/>
+      </body>
     </html>
   );
 }

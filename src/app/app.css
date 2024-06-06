@@ -1,0 +1,50 @@
+header {
+    height: 900px;
+    overflow: auto;
+}
+.item {
+    max-width: 400px;
+   margin: 0 auto;
+}
+.item img{
+width: 100%;
+} 
+
+
+
+@media screen and (max-width:480px ) {
+    .box {
+        left: 0;
+    }
+}
+
+#header {
+    padding-bottom: 6rem;
+    color: #fff;
+    background-image: url("/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  #main {
+    padding-bottom: 6rem;
+    color: #050505;
+    background-image: url("/img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 900px;
+    align-items: center;
+    padding-top: 150px;
+  }
+
+  #box {
+    max-width: 400px;
+    margin:0 auto;
+    padding: 10px;
+  align-items: center;
+
+  }
