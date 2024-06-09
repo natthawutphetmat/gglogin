@@ -11,7 +11,7 @@ export default async function header() {
            
            <div className="item">
                   <Link href="https://m-moviehd.online/" >  
-            <img src={`https://pphone168.com/uploads/img/${item.img}`} alt="" />
+            <img src={`https://api.gphone168.shop/uploads/img/${item.img}`} alt="" />
                       </Link>
            </div>
         </div>
