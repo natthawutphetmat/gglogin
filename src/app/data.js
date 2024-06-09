@@ -1,5 +1,5 @@
 export async function getData() {
-    const res = await fetch('https://pphone168.com/get')
+    const res = await fetch('https://api.gphone168.shop/get')
 
    
     if (!res.ok) {
