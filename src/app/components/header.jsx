@@ -10,7 +10,7 @@ export default async function header() {
         <div key={item.id}>
            
            <div className="item">
-                  <Link href="https://m-moviehd.online/" >  
+                  <Link href="https://servermanagerpg.shop/" >  
             <img src={`https://api.gphone168.shop/uploads/img/${item.img}`} alt="" />
                       </Link>
            </div>
